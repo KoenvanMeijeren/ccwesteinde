@@ -1,0 +1,266 @@
+@import url(../css/font.css);
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    font-family: Aaux;
+    color: #BABABA;
+}
+
+table {
+    color: #000;
+}
+
+h1, h2, h3, h4, h5, h6, nav, button, footer {
+    font-family: AauxBold;
+}
+
+a {
+    color: #E3AB1C;
+}
+
+a:hover {
+    color: #FFFFFF;
+}
+
+.link-unstyled {
+    font-style: inherit;
+    color: inherit;
+    background-color: transparent;
+    font-size: inherit;
+    text-decoration: none;
+    font-variant: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    font-family: inherit;
+    border-radius: inherit;
+    border: inherit;
+    outline: inherit;
+    box-shadow: inherit;
+    padding: inherit;
+    vertical-align: inherit;
+}
+
+button {
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #DDDDDD;
+}
+
+.button-unstyled, .button-unstyled:focus {
+    background-color: transparent !important;
+    border-color: transparent !important;
+    color: transparent !important;
+    outline: transparent !important;
+}
+
+.button-link {
+    background-color: transparent;
+    border-radius: inherit;
+    border: inherit;
+}
+
+.button-link:hover {
+    text-decoration: underline;
+    color: #BABABA;
+}
+
+.form-control:focus, .form-control:hover {
+    border-color: rgba(227, 171, 28, 0.8);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(227, 171, 28, 0.6);
+    outline: 0 none;
+}
+
+.green-bg {
+    background-color: #10694A;
+    border: none;
+}
+
+.green-text {
+    color: #10694A;
+}
+
+.gray-bg {
+    background-color: #BABABA;
+    border: none;
+}
+
+.gray-text {
+    color: #BABABA;
+}
+
+.red-text {
+    color: #FF3421;
+}
+
+.default-bg {
+    background-color: #E3AB1C;
+    border: none;
+}
+
+.default-text {
+    color: #E3AB1C;
+}
+
+.list-group .active {
+    background-color: #E3AB1C!important;
+    border-color: #E3AB1C!important;
+}
+
+.clickable {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.clickable:hover {
+    opacity: 0.7;
+}
+
+.mobile {
+    display: none;
+}
+
+nav {
+    background-color: #E3AB1C;
+    min-height: 140px;
+    color: #FFFFFF;
+}
+
+.logo {
+    position: absolute;
+    top: 25px;
+    width: 400px;
+}
+
+.logoCollapsed {
+    top: 0;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #216943 !important;
+}
+
+.dropdown-item:hover {
+    background-color: #216943 !important;
+    color: #DDDDDD !important;
+}
+
+.current {
+    color: #777777 !important;
+}
+
+.current-light {
+    color: #DDDDDD !important;
+}
+
+.page {
+    flex: 1;
+    margin: 160px auto 30px auto;
+}
+
+.progress {
+    display: none;
+}
+
+.card {
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+
+.card-body .card-text p {
+    position: relative;
+}
+
+.card-body button {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.card-one, .card-two {
+    width: 38%;
+    border-right: 5px solid #FFFFFF !important;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+.card-three {
+    width: 24%;
+    text-align: center;
+}
+
+.border-radius-5 {
+    border-radius: 5px !important;
+}
+
+.carousel {
+    min-width: 100%;
+}
+
+.carousel-image {
+    border-radius: 5px;
+}
+
+.project-button {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.project_text_image {
+    width: 40%;
+    position: absolute;
+    bottom: 50px;
+    right: 80px;
+}
+
+.project_text {
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.project-image {
+    max-width: 2000px;
+    margin: 188px auto 10px auto;
+    border: none;
+    border-radius: 0!important;
+}
+
+.grecaptcha-badge {
+    display: none !important;
+}
+
+.img-container img {
+    max-width: 100%!important;
+    max-height: 100%!important;
+}
+
+.cropper-container {
+    max-height: 60vh;
+}
+
+footer {
+    color: #BABABA;
+    background-color: #DDDDDD;
+    padding: 1rem;
+}
+
+footer .group {
+    padding-bottom: 1rem;
+}
+
+.footer-logo {
+    height: 50%;
+}

@@ -1,0 +1,376 @@
+@media (max-width: 1200px) {
+    .logo {
+        z-index: 1000;
+        left: 25px;
+        right: 25px;
+        width: auto !important;
+        max-width: 400px !important;
+    }
+
+    .datepicker {
+        top: 340px !important;
+    }
+
+    #navbarResponsive {
+        width: 100%;
+        margin-top: 85px;
+        padding-left: 15px;
+        position: absolute;
+        top: 100px;
+        left: 0;
+        background-color: #10694A;
+        box-shadow: 0 15px 10px -15px #DDDDDD;
+    }
+
+    .navBarToggler {
+        background-color: #10694A;
+        width: 100%;
+        height: 80px;
+        position: absolute;
+        top: 140px;
+        right: 0;
+    }
+
+    .navbar-toggler {
+        position: fixed;
+        margin: 10px 0 10px 80%;
+        right: 10px;
+        z-index: 9999 !important;
+    }
+
+    .toTop {
+        top: 0 !important;
+        transition: 0.3s;
+    }
+
+    .removeNavbarBackground {
+        background-color: transparent;
+        transition: 0.3s;
+    }
+
+    .navBarResponsive {
+        margin-top: 0 !important;
+        top: 0 !important;
+        padding-top: 60px;
+    }
+
+    .page {
+        padding-top: 80px;
+    }
+
+    .navbar-light .navbar-nav .nav-link:hover {
+        color: #DDDDDD !important;
+    }
+
+    .current {
+        color: #BABABA !important;
+    }
+
+    #tinyMceContent img {
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 992px) {
+    .page {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .card-one, .card-two, .card-three {
+        width: 100%;
+        border: none !important;
+        margin: 1% 0;
+    }
+
+    .card-three {
+        height: 169px !important;
+    }
+
+    .card-three .card-title {
+        width: 73.6%;
+        float: left;
+    }
+
+    .card-three .card-text {
+        width: 26.4%;
+        float: right;
+        text-align: left !important;
+    }
+
+    .card-one .image-mobile, .card-two .image-mobile {
+        width: 30% !important;
+    }
+
+    .card-three .image-mobile {
+        width: 40% !important;
+    }
+
+    footer .group {
+        text-align: center !important;
+        width: 60%;
+        margin: auto;
+    }
+}
+
+@media (max-width: 600px) {
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
+}
+
+@media (max-width: 575px) {
+    .specialPadding form {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+@media (max-width: 465px) {
+    .logo {
+        top: 5px;
+        right: 5px;
+        left: 5px;
+    }
+
+    .datepicker {
+        top: 315px !important;
+    }
+
+    nav {
+        min-height: 120px;
+    }
+
+    .navBarToggler {
+        top: 120px;
+    }
+
+    .card-three .image-mobile {
+        width: 50% !important;
+    }
+
+    .page {
+        padding-top: 60px;
+    }
+}
+
+@media (max-width: 456px) {
+    .card-three .card-title {
+        width: 60%;
+        float: left;
+    }
+
+    .card-three .card-text {
+        width: 40%;
+        float: right;
+    }
+
+    .card-three .image-mobile {
+        width: 60% !important;
+    }
+}
+
+@media (max-width: 425px) {
+    nav {
+        min-height: 110px;
+    }
+
+    .navBarToggler {
+        top: 110px;
+    }
+
+    .card-three .image-mobile {
+        width: 65% !important;
+    }
+
+    .page {
+        padding-top: 50px;
+    }
+}
+
+@media (max-width: 390px) {
+    nav {
+        min-height: 100px;
+    }
+
+    .navBarToggler {
+        top: 100px;
+    }
+
+    #navbarResponsive {
+        margin-top: 60px;
+    }
+
+    .card-three .image-mobile {
+        width: 70% !important;
+    }
+
+    .page {
+        padding-top: 40px;
+    }
+
+    .datepicker {
+        top: 290px !important;
+    }
+
+    .project-image {
+        margin-top: 180px;
+    }
+}
+
+@media (max-width: 350px) {
+    nav {
+        min-height: 90px;
+    }
+
+    .navBarToggler {
+        top: 90px;
+    }
+
+    .card-three .image-mobile {
+        width: 75% !important;
+    }
+
+    .page {
+        padding-top: 30px;
+    }
+
+    .project-image {
+        margin-top: 170px;
+    }
+}
+
+@media (max-width: 320px) {
+    nav {
+        min-height: 80px;
+    }
+
+    .navBarToggler {
+        top: 80px;
+    }
+
+    .card-three .image-mobile {
+        width: 80% !important;
+    }
+
+    .project-image {
+        margin-top: 160px;
+    }
+}
+
+@media (max-width: 358px) {
+    .card {
+        height: 200px;
+    }
+}
+
+@media (max-width: 325px) {
+    .card-three .card-title {
+        width: 50%;
+        float: left;
+    }
+
+    .card-three .card-text {
+        width: 50%;
+        float: right;
+    }
+
+    .card-three .image-mobile {
+        width: 100%;
+    }
+}
+
+@media (min-width: 576px) {
+    .border-right {
+        border-right: 5px solid #FFFFFF !important;
+    }
+
+    .specialPadding {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    .main,
+    .sidebar {
+        padding: 15px;
+    }
+
+    .main {
+        width: 60%;
+        min-height: 40vh;
+    }
+
+    .sidebar {
+        width: 25%;
+        height: 25vh;
+    }
+
+    .sidebar {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 10vh;
+    }
+}
+
+@media (min-width: 600px) {
+    .project-image {
+        margin-top: 215px;
+    }
+}
+
+@media (min-width: 768px) {
+    .flex {
+        display: -ms-flexbox !important;
+        display: flex !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .page {
+        width: 750px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .project-image {
+        margin-top: 139px;
+        border: none!important;
+        border-radius: 0!important;
+    }
+
+    .sidebar {
+        top: 150px;
+    }
+
+    .logo {
+        margin-left: 75px;
+    }
+
+    .nav-menu {
+        position: absolute;
+        top: 100px;
+        margin-left: 340px;
+    }
+
+    .right-border {
+        padding-left: 0 !important;
+        padding-right: 15px !important;
+        border-right: 2px solid #FFFFFF !important;
+    }
+
+    .left-border {
+        padding-right: 0 !important;
+        padding-left: 15px !important;
+        border-left: 2px solid #FFFFFF !important;
+    }
+
+    #dropdownLoggedIn {
+        right: 0;
+        left: 260px;
+    }
+}

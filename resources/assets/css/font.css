@@ -1,0 +1,11 @@
+@font-face {
+    font-family: Aaux;
+    font-style: normal;
+    src: url(../fonts/AauxRegular.ttf);
+}
+
+@font-face {
+    font-family: AauxBold;
+    font-style: normal;
+    src: url(../fonts/AauxRegularBold.ttf);
+}

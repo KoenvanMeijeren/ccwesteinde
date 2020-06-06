@@ -16,17 +16,20 @@
     }
   },
   "require": {
-    "phpmailer/phpmailer": "~6.0",
+    "phpmailer/phpmailer": "~6.1",
     "defuse/php-encryption": "~2.2",
     "paragonie/anti-csrf": "^2.2",
-    "monolog/monolog": "^1.24",
+    "monolog/monolog": "^1.25",
     "siriusphp/upload": "^2.1",
     "ext-json": "*",
     "ext-intl": "*",
     "ext-pdo": "*",
     "ext-filter": "*",
-    "php": "^7.2.9",
-    "cakephp/chronos": "^1.2",
+    "php": "^7.4",
+    "cakephp/chronos": "^1.3",
     "kminek/email-obfuscator": "^1.0"
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-master"
   }
 }
